@@ -1,0 +1,100 @@
+body {
+  margin: 0;
+  min-height: 700px;
+  background: radial-gradient(circle at top, #e8f190, #b5f192);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Segoe UI", Arial, sans-serif;
+  color: #222;
+  padding: 24px;
+}
+
+.cestitka {
+  width: min(720px, 100%);
+  background: rgba(30, 196, 146, 0.9);
+  backdrop-filter: blur(6px);
+  border-radius: 22px;
+  padding: 30px;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.15);
+  border-left: 8px solid #144d2c;
+}
+
+.zaglavlje {
+  text-align: center;
+  margin-bottom: 26px;
+}
+
+.mali-tekst {
+  margin: 0 0 8px 0;
+  font-size: 12px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-align: left;
+  color: #110101;
+}
+
+h1 {
+  margin: 0;
+  font-size: 38px;
+  letter-spacing: 1px;
+  color: #0a0909;
+}
+
+.podnaslov {
+  margin: 14px 0 0 0;
+  font-size: 16px;
+  line-height: 1.8;
+  color: #3b3838;
+}
+
+.blok {
+  padding: 22px;
+  border-radius: 18px;
+  margin: 18px 0;
+  position: relative;
+}
+
+.blok h2 {
+  margin: 0 0 10px 0;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-size: 13px;
+  color: #0a0004;
+}
+
+.blok p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.8;
+  text-align: left;
+}
+
+.boja {
+  background-color: #fff;
+  border: 2px dashed #0f0107;
+}
+
+.gradijent {
+  background: linear-gradient(135deg, #ffe8b5, #83f574);
+}
+
+.slika {
+  background-image: url("konfeti.jpg");
+  background-size: cover;
+  background-position: center;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.overlay {
+  background-color: rgba(255, 255, 255, 0.85);
+  padding: 16px;
+  border-radius: 14px;
+}
+
+.potpis {
+  text-align: right;
+  margin-top: 20px;
+  font-style:italic;
+  color: #0f0f0f;
+}
