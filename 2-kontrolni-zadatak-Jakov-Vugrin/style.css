@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  min-height: 700px;
+  background: radial-gradient( #fff1d6, #ffd6c9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #3a1b0f;
+  padding: 32px;
+}
+
+.glavni-okvir {
+  margin: auto;
+  width: max(900px);
+  background: rgba(255, 255, 255, 0.9);
+  border-radius: 6px;
+  border: #0a0004;
+  padding: 34px;
+  box-shadow: 0 25px 60px rgba(0, 0, 0, 0.15);
+}
+
+
+h1 {
+  text-align: center;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+  font-size: 34px;
+  letter-spacing: 1px;
+  color: #b91c1c;
+}
+
+.podnaslov {
+text-align: center;
+  margin-bottom: 30px;
+  font-size: 16px;
+  line-height: 1.8;
+  color: #6b2a1a;
+}
+
+
+.blok h2 {
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-size: 20px;
+  color: #8a1c1c;
+}
+
+.blok p {
+  margin: 0;
+  font-size: 16px;
+  line-height: 1.8;
+  color: #3a1b0f;
+}
+
+.jednobojno {
+  border-radius: 6px;
+  padding: 20px;
+  margin-bottom:18px;
+  box-shadow: #0a0004;  
+  background-color:#fff7ed;
+  border: 2px #0f0107;
+    
+}
+
+.gradijent {
+  border-radius: 6px;
+  padding: 20px;
+  margin-bottom: 18px;
+  box-shadow: #0a0004;
+  border: 2px #0f0107;
+  background: linear-gradient(125deg, #fb923c, #fde047);
+}
+
+.slika {
+  border-radius: 6px;
+  padding: 20px;
+  margin-bottom: 18px;
+  box-shadow: #0a0004;
+  border: 2px #0f0107;
+  background-image: url("pozadina.jpg");
+  background-size: cover;
+  background-position: center;
+  border: 1px  rgba(255, 255, 255, 0.4);
+}
+
+.overlay {
+  background-color: rgba(255, 221,0,0.6);
+  padding: 18px;
+  border-radius: 6px;
+  border:1px #0a0004;
+}
+
+.naglasak{
+    font-weight: 800;
+    color: #b91c1c;
+    background-color: rgba(185, 28, 28, 0.14);
+    padding: 5px;
+    border-radius: 10px;
+
+}
