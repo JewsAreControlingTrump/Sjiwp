@@ -1,0 +1,70 @@
+body{
+    font-family: monospace;
+    padding:40px;
+    background: linear-gradient(130deg, #e68787, #eaf2ee);
+}
+
+h1{
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.kartica{
+    background-color: rgb(216, 231, 83);
+    padding: 20px;
+    border-radius: 15px;
+    text-align: center;
+    border: 1px solid #bde5d3;
+    margin-bottom: 20px;
+    /* Smooth/glatki prijelaz */
+    transition: 0.25s;
+}
+
+.boja:hover{
+    background-color: rgb(232, 86, 152);
+}
+
+.opacity:hover{
+    opacity: 0.4;
+}
+
+.pomak:hover{
+    transform: translateY(8px);
+}
+
+.scale:hover{
+    transform: scale(1.10);
+}
+
+.kombinacija:hover{
+    transform: translateY(-5px) scale(1.05);
+    background-color: rgb(177, 8, 59);
+}
+
+button{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(223, 11, 195);
+    font-size: 15px;
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: rgb(233, 91, 174);
+    transform: scale(1.01);
+}
+
+img{
+    width: 100%;
+    border-radius: 15px;
+    transition: 0.5s;
+    opacity: 0.85;
+    margin-top: 20px;
+}
+
+img:hover{
+    opacity:1;
+    transform: scale(1.05);
+}
