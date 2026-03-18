@@ -1,0 +1,41 @@
+body{
+    margin:0;
+    padding:30px;
+    background-color:rgb(61, 236, 198);
+}
+
+.okvir{
+    max-width: 900px;
+    text-align: center;
+    margin:0 auto;
+}
+
+.velika-kartica{
+    display: flex;
+    gap: 20px;
+}
+
+.kartica{
+    flex: 1;
+    padding: 20px;
+    background-color: rgb(31, 188, 188);
+    border-radius: 10px;
+}
+
+@media (max-width:1000px){
+    .velika-kartica{
+        flex-direction: column;
+    }
+    body{
+        background-color: rgb(11, 63, 75);
+    }
+}
+
+@media (max-width:900px){
+    .velika-kartica{
+        flex-direction: column;
+    }
+    body{
+        background-color: rgb(58, 34, 217);
+    }
+}
